@@ -21,3 +21,10 @@ button,
 .main-contextMenu-menuItemButton {
     transition: color 200ms cubic-bezier(0, 0.55, 0.45, 1), background-color 200ms cubic-bezier(0, 0.55, 0.45, 1) !important;
 }
+
+/* Search bar and dropdown */
+.main-topBar-searchBar,
+#recent-searches-dropdown > div {
+	background-color: var(--spice-main-elevated) !important;
+}
+
